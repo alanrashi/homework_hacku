@@ -1,0 +1,238 @@
+.container-fluid {
+    background: ;
+    
+}
+.navbar {
+
+}
+/*  list_product container  */
+
+.list_prod_container {
+margin-bottom: 100px;
+}
+
+
+.beads {
+list-style: none;
+margin: 0;
+padding-left: 40px;
+border-radius: 5px;
+margin-bottom: 40px;
+}
+.beads li {
+text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+line-height: 40px;
+border-bottom: 1px solid #D4D7D6;
+position: relative;
+}
+.beads a {
+text-decoration: none;
+color: #464643;
+display: block;
+line-height: 40px;
+position: relative;
+transition: width .3s ease;
+transition-property: color;
+}
+
+.beads a:hover {
+color: #CF2626;
+}
+
+.beads a:before {
+content:'';
+position: absolute;
+left: -20px;
+top: 6px;
+width: 6px;
+height: 6px;
+border-radius: 50%;
+background: #0fc50f;
+}
+.beads li:last-child {border-bottom: none;}
+.beads li:before,
+.beads li:after {
+content: "";
+position: absolute;
+border-radius: 50%;
+}
+
+.beads li:hover:after {
+background: #CF2626;
+}
+
+.beads li:before {
+top: calc(50% - 5px);
+background: #0fc50f;
+left: -22px;
+width: 10px;
+height: 10px;
+transition: 0.5s linear; 
+}
+
+.beads a:hover:before {
+background: #CF2626;
+}
+
+.beads li:after {
+bottom: 6px;
+left: -20px;
+width: 6px;
+height: 6px;
+background: #0fc50f;
+}
+.beads li:hover:before {
+background: #CF2626;
+}
+
+.list_product {
+border: 1px solid #D4D7D6;
+margin-left: 10px;
+margin-bottom: 10px;
+height: 480px;
+padding: 20px;
+border-bottom: solid 1px #DEDEDE;
+max-width: 35%;
+}
+
+.list_name_product {
+color: #353535;
+font-family: AvenirNext, sans-serif;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.25;
+text-transform: uppercase;
+position: relative;
+overflow: hidden;
+transition-property: color;
+cursor: pointer;
+text-align: left;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.bx_ui_slider_track .bx_ui_slider_pricebar_V {
+position: absolute;
+height: 10px;
+}
+
+.card-body .btn{
+width: 100%;
+
+}
+
+.card {
+padding: 20px
+}
+
+.card img {
+cursor: pointer;
+}
+
+.product__title {
+width: 100%;
+font-family: OpenSans, sans-serif;
+font-size: .875rem;
+line-height: 1.43;
+text-align: center;
+color: #353535;
+margin-bottom: 10px;
+display: block;
+height: 100px
+}
+
+.product__title:hover {
+color: #CF2626;
+}
+
+.product__subscription {
+display: inline;
+width: 100%;
+font-family: OpenSans, sans-serif;
+font-size: .6875rem;
+line-height: 1.454545;
+text-align: center;
+color: #BFBFBF;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.in-stock {
+font-family: OpenSans, sans-serif;
+font-size: .75rem;
+line-height: 1.4167;
+}
+
+#icon-check {
+font-size: 8px;
+fill: #0fc50f;
+}
+
+.price {
+font-family: AvenirNext, sans-serif;
+font-weight: 700;
+color: #353535;
+font-size: 1.25rem
+}
+
+.link_fastbuy {
+font-family: OpenSans, sans-serif;
+font-size: .875rem;
+font-weight: 600;
+line-height: 1.35714;
+}
+.price:after {
+font-family: "PT Rouble";
+font-size: 1em;
+font-weight: 400;
+line-height: 1.1;
+content: '\20BD';
+}
+
+.link_fastbuy span{
+color: #0fc50f;
+position: relative;
+transition-property: color;
+border-bottom: dashed 1px #0fc50f;
+}
+.link_fastbuy span:hover{
+color: #CF2626;
+}
+/* footer container */
+
+footer {
+background: #353535;
+padding: 15px;
+}
+
+.ftli {
+list-style-type: none; 
+}
+.ftli a{
+font-family: OpenSans, sans-serif;
+font-size: 1rem;
+line-height: 1.9375;
+color: #FFFFFF;
+transition: width .3s ease;
+transition-property: color;
+}
+.ftli a:hover{
+color: #CF2626;
+border-bottom: none;
+}
+
+.foottxt {
+font-family: OpenSans, sans-serif;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+.footer_info {
+font-family: OpenSans, sans-serif;
+font-size: 1rem;
+line-height: 1.9375;
+text-align: right;
+color: #FFFFFF;
+}
