@@ -90,6 +90,7 @@ $name = isset($_SESSION["name"]) ? $_SESSION["name"] : 'All'; // Берём из
 								require "catalog.php";
 								echo $catalog['list_name'] ?>
                             </div>
+                            
                             <ul class="beads">
 							<?php 
 							foreach ($catalog['items'] as $item) { 
@@ -98,7 +99,6 @@ $name = isset($_SESSION["name"]) ? $_SESSION["name"] : 'All'; // Берём из
 							?>  
                             </ul>
                             <div class="list_name_product">
-							<?php echo $name; ?>
                                 ЦЕНА
                             </div> 
                         <div id="tabs-3">
@@ -195,17 +195,17 @@ $name = isset($_SESSION["name"]) ? $_SESSION["name"] : 'All'; // Берём из
                         </ul>
                         <div>
                             <h3 class="footer_info">АДРЕСА МАГАЗИНОВ</h3>
-                            <p class="footer_info">Москва, улица Введенского, 23с3</p>
+                            <p class="footer_info">LA USA</p>
                         </div>
                         <p class="footer_info"> 
                             Работаем ежедневно с 08:00 до 22:00
                                         <br>
-                            Доставка в любые районы Москвы и области 
+                            Доставка в любые районы и области 
                         </p>
     
                     </div>
                     
-                    <p class="foottxt" > Бивер &copy; все права защищены </p>
+                    <p class="foottxt" > BitByBit &copy; все права защищены </p>
         </footer>
 	</body>
 </html>
